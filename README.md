@@ -37,7 +37,7 @@ To display help about the template command just call:
             date="2016-12-14"
             datetime="2016-12-14T20:22:47+00:00"
             author_name="Pawel Pikula"
-            author_email="pawel.pikula@teamaol.com"
+            author_email="pawel.pikula@gmail.com"
             copyright_year="2016"
             apps_dir="apps" (Directory where applications will be created if needed)
 
