@@ -1,5 +1,5 @@
-{application, amoc_plugin,
- [{description, "A rebar plugin"},
+{application, amoc_templates,
+ [{description, "A rebar plugin for generating amoc scenarios"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,

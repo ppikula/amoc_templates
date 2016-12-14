@@ -1,8 +1,8 @@
--module(amoc_plugin_prv).
+-module(amoc_templates_prv).
 
 -export([init/1, do/1, format_error/1]).
 
--define(PROVIDER, amoc_plugin).
+-define(PROVIDER, amoc_templates).
 -define(DEPS, [app_discovery]).
 
 %% ===================================================================
@@ -15,7 +15,7 @@ init(State) ->
             {module, ?MODULE},            % The module implementation of the task
             {bare, true},                 % The task can be run by the user, always true
             {deps, ?DEPS},                % The list of dependencies
-            {example, "rebar3 amoc_plugin"}, % How to use the plugin
+            {example, "rebar3 amoc_templates"}, % How to use the plugin
             {opts, []},                   % list of options understood by the plugin
             {short_desc, "A rebar plugin"},
             {desc, "A rebar plugin"}
