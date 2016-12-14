@@ -22,11 +22,12 @@ Add the plugin to your rebar config:
     ]}.
 
 Then you will be able to use it:
-
-   ./rebar3 new empty_scenario name=simple
-   ===> Writing scenarios/simple.erl
+    
+    ./rebar3 new empty_scenario name=simple
+    ===> Writing scenarios/simple.erl
 
 To display help about the template command just call:
+    
     ▶ ./rebar3 new help empty_scenario
     empty_scenario:
         plugin template (/Users/pawelpikula/dev/oss/amoc-demo/amoc/_build/default/plugins/amoc_templates/priv/templates/empty_scenario.template)
