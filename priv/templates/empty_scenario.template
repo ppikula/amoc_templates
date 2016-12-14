@@ -1,0 +1,4 @@
+{variables, [
+  {name, "myamocscenario"}
+]}.
+{template, "empty_scenario.erl", "scenarios/{{name}}.erl"}.
