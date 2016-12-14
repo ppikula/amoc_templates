@@ -1,3 +1,4 @@
+{description, "Creates a simple generic amoc scenario"}.
 {variables, [
   {name, "myamocscenario"}
 ]}.
